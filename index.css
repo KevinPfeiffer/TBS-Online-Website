@@ -13,18 +13,7 @@ input {
 }
 body {
   width: 102.4rem;
-}.tbs-online-WxE {
-  box-sizing: border-box;
-  padding: 2.7rem 8.2rem 2.7rem 8.1rem;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  column-gap: 0.7rem;
-  align-items: flex-start;
-  background-color: #191919;
-}
-.tbs-online-WxE .group-eXx {
+}.group-eXx {
   margin-bottom: 5.1rem;
   width: 100%;
   align-items: center;
@@ -32,7 +21,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.tbs-online-WxE .group-eXx .text-big {
+.group-eXx .text-big {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,10 +33,21 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.tbs-online-WxE .group-eXx .image-nna {
+.group-eXx .image-nna {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
+}
+.tbs-online-WxE {
+  box-sizing: border-box;
+  padding: 2.7rem 8.2rem 2.7rem 8.1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  column-gap: 0.7rem;
+  align-items: flex-start;
+  background-color: #191919;
 }
 .tbs-online-WxE .infocard {
   margin-top: 20.6rem;
