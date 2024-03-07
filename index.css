@@ -13,13 +13,15 @@ input {
 }
 body {
   width: 102.4rem;
-}.group-eXx {
+}
+.group-eXx {
   margin-bottom: 5.1rem;
   width: 100%;
   align-items: center;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+  background-color: #191919;
 }
 .group-eXx .text-big {
   display: flex;
