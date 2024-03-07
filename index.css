@@ -15,12 +15,14 @@ body {
   width: 102.4rem;
 }
 .group-eXx {
-  margin-bottom: 5.1rem;
+  box-sizing: border-box;
+  padding: 2.7rem 8.2rem 2.7rem 8.1rem;
   width: 100%;
-  align-items: center;
+  overflow: hidden;
+  position: relative;
   display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
+  column-gap: 0.7rem;
+  align-items: flex-start;
   background-color: #191919;
 }
 .group-eXx .text-big {
