@@ -14,7 +14,7 @@ input {
 body {
   width: 102.4rem;
 }
-.group-eXx {
+.tbs-online-WxE {
   box-sizing: border-box;
   padding: 2.7rem 8.2rem 2.7rem 8.1rem;
   width: 100%;
@@ -25,7 +25,7 @@ body {
   align-items: flex-start;
   background-color: #191919;
 }
-.group-eXx .text-big {
+.tbs-online-WxE .text-big {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,21 +37,10 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.group-eXx .image-nna {
+.tbs-online-WxE .image-nna {
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
-}
-.tbs-online-WxE {
-  box-sizing: border-box;
-  padding: 2.7rem 8.2rem 2.7rem 8.1rem;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  column-gap: 0.7rem;
-  align-items: flex-start;
-  background-color: #191919;
 }
 .tbs-online-WxE .infocard {
   margin-top: 20.6rem;
@@ -72,8 +61,18 @@ body {
   flex-shrink: 0;
 }
 .tbs-online-WxE .infocard .infocard-bg-tbsinfo .image {
-  width: 5rem;
-  height: 1.9388rem;
+  object-fit: cover;
+  vertical-align: top;
+}
+.tbs-online-WxE .infocard .infocard-bg-tbsnow {
+  margin-right: 3.5rem;
+  box-sizing: border-box;
+  padding: 1.9rem 0.2rem 1.782rem 0.3rem;
+  height: 100%;
+  background: linear-gradient(90deg, #003480 -0%, #00a6ff 100%);
+  flex-shrink: 0;
+}
+.tbs-online-WxE .infocard .infocard-bg-tbsnow .image {
   object-fit: cover;
   vertical-align: top;
 }
@@ -89,38 +88,6 @@ body {
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
-}
-.tbs-online-WxE .auto-group-aj5l-xv2 {
-  width: 35.3rem;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-}
-.tbs-online-WxE .auto-group-aj5l-xv2 .infocard-h8r {
-  margin: 0 5.3rem;
-  box-sizing: border-box;
-  padding: 1rem 3rem 1rem 1rem;
-  width: calc(100% - 10.6rem);
-  height: 7.5rem;
-  display: flex;
-  align-items: center;
-  background-color: #2d2d2d;
-  flex-shrink: 0;
-}
-.tbs-online-WxE .auto-group-aj5l-xv2 .infocard-h8r .auto-group-9jgs-YfG {
-  margin-right: 3.5rem;
-  box-sizing: border-box;
-  padding: 1.9rem 0.2rem 1.782rem 0.3rem;
-  height: 100%;
-  background: linear-gradient(90deg, #003480 -0%, #00a6ff 100%);
-  flex-shrink: 0;
-}
-.tbs-online-WxE .auto-group-aj5l-xv2 .infocard-h8r .auto-group-9jgs-YfG .image-Ryx {
-  width: 5rem;
-  height: 1.8182rem;
-  object-fit: cover;
-  vertical-align: top;
 }
 .tbs-online-WxE .auto-group-aj5l-xv2 .infocard-h8r .text-5Hp {
   margin-top: 0.1rem;
